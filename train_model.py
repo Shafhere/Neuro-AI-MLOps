@@ -59,7 +59,7 @@ preprocessor = ColumnTransformer([
 # ==========================================
 
 model = RandomForestClassifier(
-    n_estimators=150,
+    n_estimators=200,
     random_state=42
 )
 
